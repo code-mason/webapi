@@ -4,6 +4,9 @@
    run the app:
      $ DEBUG=del:* npm start
 
+# Modify DB
+update chain set chain_name="Codemason", chain_code3="CMN" where chain_name ="Dash"
+
 # Interface
 
 获取本地货币价格接口
